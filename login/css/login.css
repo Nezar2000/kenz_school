@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #fff;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(../png/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+   width: 380px;
+   padding: 50px 30px;
+   border-radius: 10px;
+   box-shadow: 7px 7px 60px #000;
+}
+img{
+    margin-bottom: 60px;
+}
+.control input{
+    width: 100%;
+    display:block;
+    padding: 10px;
+    color:#222;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin: 1em 0;
+    opacity:.7;
+}
+.control input[type="submit"]{
+    background: rgb(247, 78, 36);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+label{
+    opacity: .9;
+}
+select{
+    width: 100%;
+    display:block;
+    padding: 10px;
+    color:#222;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin: 1em 0;
+    opacity:.7;
+}
+
+
