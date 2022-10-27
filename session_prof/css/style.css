@@ -1,0 +1,109 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 270px;
+    background: #224973;
+    padding: 6px 1px;
+}
+.sidebar .logo_content .logo a{
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+}
+.logo_content .logo i{
+    font-size: 28px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.logo_content .logo .logo_name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sidebar #btn{
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+.sidebar ul{
+    margin-top: 30px;
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 3px;
+    margin-left: 0px;
+    list-style: none;
+    line-height: 50px;
+}
+.sidebar ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.sidebar ul li a:hover{
+    color: #11101d;
+    background: #fff;
+    border-radius: 12px;
+    letter-spacing: 0.5px;
+}
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+.home_content{
+    position: absolute;
+    height: 100%;
+    left: 270px;
+    background-color:white;
+    background-image: url(../png/logo.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: 85%;
+    background-position-x: 80%;
+}
+.home_content .card{
+    margin:40px 50px;
+    background:#F8F8F8;
+    width: 18rem;   
+    align-items:center;
+    border-radius:19px;
+    box-shadow: 25px 25px 19px rgba(0,0,0,0.3);
+}
+.home_content .card img{
+    height:150px;
+    width:9em;
+    margin-top: 10px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
